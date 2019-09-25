@@ -1,0 +1,23 @@
+{% extends 'base/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+<h1 class="header-title">Hello Stars</h1>
+    <div class="container">
+
+        <div class="col-md-8 mycontent">
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'accounts:login' %}" class="btn btn-outline-primary">Log In</a>
+            <a href="{% url 'accounts:signup' %}" class="btn btn-primary active">Sign up</a>
+        </div>
+    </div>
+{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+html{
+    font-size: 16px;
+}
+
+
+.nav{
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+
+.navbar-brand{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.nav-item{
+    margin-right: 2rem;
+}
+
+.header-title{
+    margin: 3rem 0;
+    font-weight: 700;
+    text-space: 1rem;
+
+}
+
+
+.mycontent{
+    background-image: url("../../media/imgs/pluto-welcome.png");
+    right: 40%;
+    width: 47rem;
+    height: 57rem;
+    display: block;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 22rem;
+
+}
+
+.textinput{
+    width: 60%;
+}
+
+.emailinput{
+    width: 60%;
+}
+
+.button{
+    border-radius: 5rem;
+    width: 8rem;
+}
+
+.test{
+    background-image: url("../../media/imgs/pluto-sign-in.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50rem;
+    height: 60rem;
+    margin-top: -5rem;
+}
+.thanks{
+    background-image: url("../../media/imgs/pluto-logged-out.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50rem;
+    height: 60rem;
+    margin-top: -5rem;
+}
+
+.group{
+    margin-top: 3.5rem;
+}
+
+.btn-warning{
+    margin: 2rem 0;
+}
